@@ -8,11 +8,6 @@
     <version>1.13-SNAPSHOT</version>
     <name>SampleProject</name>
     <url>http://maven.apache.org</url>
- <scm>
-<connection>scm:git:https://github.com/nutst/jenkins-sample-1.git</connection>
-<url>https://github.com/nutst/jenkins-sample-1</url>
-<developerConnection>scm:git:https://github.com/nutst/jenkins-sample-1.git</developerConnection>
-</scm>
     <build>
         <plugins>
             <plugin>
@@ -60,10 +55,9 @@
             <url>http://130.61.57.189:8081/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
-    <scm>
-        <connection>scm:git:https://github.com/bnasslahsen/jenkins-sample-1.git</connection>
-        <url>https://github.com/bnasslahsen/jenkins-sample-1</url>
-        <developerConnection>scm:git:https://github.com/bnasslahsen/jenkins-sample-1.git</developerConnection>
-        <tag>HEAD</tag>
-    </scm>
+ <scm>
+<connection>scm:git:https://github.com/nutst/jenkins-sample-1.git</connection>
+<url>https://github.com/nutst/jenkins-sample-1</url>
+<developerConnection>scm:git:https://github.com/nutst/jenkins-sample-1.git</developerConnection>
+</scm>
 </project>
